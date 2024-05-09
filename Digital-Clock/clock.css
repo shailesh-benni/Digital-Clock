@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  
+.digitalClock {
+  color: #ffffff;
+  font-size: 7rem;
+  text-shadow: 6px 6px 6px #053df3;
+  position: absolute;
+  right: 40px;
+  top: 250px;
+}
